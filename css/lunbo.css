@@ -1,0 +1,53 @@
+
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		#box{
+			width:1200px;
+			height:570px;
+			border:1px solid red;
+			margin:100px;
+			position:relative;
+			overflow:hidden;
+		}
+		#box .one{
+			width:1200px;
+			heigth:570px;
+			position:absolute;
+		}
+		#box .one img{
+			position:absolute;
+			left:0px;
+			top:0px;
+			display:none;
+		}
+		#box .one .tu{
+			display:block;
+		}
+		#box .two{
+			width:300px;
+			height:50px;
+			border:1px solid red;
+			position:absolute;
+			left:450px;
+			top:500px;
+		}
+		#box .two ul{
+			list-style:none;
+			width:300px;
+			height:50px;
+			
+		}
+		#box .two ul li{
+			width:16px;
+			height:16px;
+			background:gray;
+			border-radius:50%;
+			margin:15px;
+			float:left;
+		}
+		#box .two ul .circle{
+			background:red;
+		}
+	
